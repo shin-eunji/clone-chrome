@@ -2,14 +2,15 @@
 
 - vanilla JS로 chrome Momentum 제작하기
 
-## 작성 규칙
-
 ## 분류
 
 - HTML
 - CSS
 - JavaScript(ES6)
 
-##
+## 기능
 
-캔버스 API
+- 위치와 날씨 정보
+- 할일 목록(Todo)
+
+- 캔버스 API
