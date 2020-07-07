@@ -1,19 +1,17 @@
-const title = document.querySelector("#title");
+const clockContainer = document.querySelector(".js-clock");
+const clockTitle = clockContainer.querySelector("h1");
 
-const CLICKED_CLASS = "clicked";
+function getTime() {
+  const date = new Date();
+  const minutes = date.getMinutes();
+  const hours = date.getHours();
+  const seconds = date.getSeconds();
 
-function handleClick() {
-  //   const hasClass = title.classList.contains(CLICKED_CLASS);
-  //   if (hasClass) {
-  //     title.classList.remove(CLICKED_CLASS);
-  //   } else {
-  //     title.classList.add(CLICKED_CLASS);
-  //   }
-
-  title.classList.toggle(CLICKED_CLASS);
+  clockTitle.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
 function init() {
-  title.addEventListener("click", handleClick);
+  getTime();
 }
+
 init();
