@@ -1,9 +1,7 @@
-function sayHello(name, age) {
-  return `Hello ${name} you are ${age} years old`;
+const title = document.querySelector("#title");
+
+function handleClick() {
+  title.style.color = "blue";
 }
 
-const greet = sayHello("shin", 27);
-const greet1 = sayHello("kim", 25);
-
-console.log(greet);
-console.log(greet1);
+title.addEventListener("click", handleClick);
