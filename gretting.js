@@ -5,8 +5,15 @@ const greeting = document.querySelector(".js-greetings");
 const USER_LS = "currentUser";
 const SHOWING_CN = "showing";
 
+function handleSubmit(event) {
+  event.preventDefault(); // input에 name적고 Enter를 누르면 기본값으로 적용.
+  const currentValue = input.value;
+  paintGreeting(currentValue);
+}
+
 function askForName() {
   form.classList.add(SHOWING_CN);
+  form.addEventListener("submit", handleSubmit);
 }
 
 function paintGreeting(text) {
