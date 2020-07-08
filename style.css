@@ -6,7 +6,7 @@ h1 {
   color: #34495e;
   font-weight: bold;
   font-size: 3.5rem;
-  transition: color 0.5s ease-in-out;
+  /* transition: color 0.5s ease-in-out; */
 }
 .clicked {
   color: #7f8c8d;
@@ -16,7 +16,7 @@ h1 {
 }
 .form,
 .greetings {
-  /* display: none; */
+  display: none;
 }
 .showing {
   display: block;
