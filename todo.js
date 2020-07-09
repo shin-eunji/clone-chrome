@@ -7,6 +7,10 @@ const TODOS_LS = "toDos";
 // 해야 할 일들을 생성할 때 array 추가
 const toDos = [];
 
+function saveToDos() {
+  localStorage.setItem(TODOS_LS, JSON.stringify(toDos));
+}
+
 function paintToDo(text) {
   const li = document.createElement("li");
   const delBtn = document.createElement("button");
@@ -26,6 +30,7 @@ function paintToDo(text) {
     id: newId,
   };
   toDos.push(toDoObj);
+  saveToDos();
 }
 
 function handleSubmit(event) {
