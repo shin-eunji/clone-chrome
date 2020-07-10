@@ -10,7 +10,8 @@
 
 ## 기능
 
-- 위치와 날씨 정보
+- UserName data 저장
+- 현재 시간
 - 할일 목록(Todo)
-
-- 캔버스 API
+- 위치와 날씨 API (https://openweathermap.org/current)
+- 새로고침 시, UserName과 Todo list localStorage 저장.
