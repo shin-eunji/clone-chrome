@@ -15,3 +15,4 @@
 - 할일 목록(Todo)
 - 위치와 날씨 API (https://openweathermap.org/current)
 - 새로고침 시, UserName과 Todo list localStorage 저장.
+- Todo list delete 시, 하나씩 삭제하기
