@@ -17,6 +17,11 @@
 - 새로고침 시, UserName과 Todo list localStorage 저장.
 - Todo list delete 시, 하나씩 삭제하기
 
-## 날짜
+## Study 현황
 
-- 2020-07-10
+- [x] 2020-07-07 : ES6, DataType, Array
+- [x] 2020-07-08 : Object, function
+- [x] 2020-07-09 : DOM, Event, if문
+- [x] 2020-07-10 : Vanilla JS Clock, User name
+- [x] 2020-07-11 : Vanilla JS ToDo List
+- [x] 2020-07-12 : Vanilla JS Weather API
